@@ -1,5 +1,5 @@
 const AVATAR1 = "/resources/images/avatar/joseph.webp"
-const AVATAR2 = "/resources/images/avatar/avatar.jpg"
+const AVATAR2 = "/resources/images/avatar/avatar.webp"
 const AVATAR3 = "/resources/images/avatar/david.webp"
 
 export const Reviews = [

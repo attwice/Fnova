@@ -38,14 +38,17 @@ const MainEthics = () => {
           <img
             className={curPortrait == 0 ? "active" : "deactive"}
             src={portraits[curPortrait]}
+            max-width="760" max-height="530"
           />
           <img
             className={curPortrait == 1 ? "active" : "deactive"}
             src={portraits[curPortrait]}
+            max-width="760" max-height="530"
           />
           <img
             className={curPortrait == 2 ? "active" : "deactive"}
             src={portraits[curPortrait]}
+            max-width="760" max-height="530"
           />
         </div>
         <div className="main-ethics-portrait-pagination slider-mobile flex flex-column">

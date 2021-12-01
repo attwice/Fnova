@@ -50,7 +50,7 @@ const Header = () => {
 
   return (
     <div className="header flex">
-      <img src={LOGO} alt="logo" onClick={handleClickLogo} />
+      <img src={LOGO} alt="logo" max-width="250" max-height="90" onClick={handleClickLogo} />
       <div className="header-nav  flex">
         <div className="header-menus flex">{generateHeaderNav()}</div>
         <div className="header-order-now" onClick={handleOrder}>

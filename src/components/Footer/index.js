@@ -10,7 +10,7 @@ const Footer = () => (
   <>
     <div className="main-footer-fill"></div>
     <div className="main-footer-getapp flex">
-      <img src={FOOTER} alt="get order" />
+      <img src={FOOTER} max-width="1920" max-height="150" alt="get order" />
       <div className="main-footer-getapp-content flex">
         <span>GET STARTED TODAY</span>
         <OrderButton title="ORDER NOW" />
@@ -18,7 +18,7 @@ const Footer = () => (
     </div>
     <div className="main-footer flex">
       <div className="main-footer-info">
-        <img src={LOGO} alt="logo" />
+        <img src={LOGO} max-width="270" max-height="90" alt="logo" />
         <br />
         <p>{TESTIMORIAL}</p>
       </div>

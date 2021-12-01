@@ -4,7 +4,7 @@ const MainProcessSteps = ({ image, title, comment }) => (
   <div className="main-process-steps flex flex-column">
     <div>
       <div className="main-process-steps-image flex">
-        <img src={image} alt="steps"/>
+        <img src={image} max-width="300" max-height="155" alt="steps"/>
       </div>
       <div className="main-process-steps-title">{title}</div>
       <div className="main-process-steps-comments">{comment}</div>
