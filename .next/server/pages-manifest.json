@@ -1,6 +1,24 @@
 {
+  "/404Page": "pages/404Page.html",
+  "/Dashboard": "pages/Dashboard.html",
+  "/Purchase": "pages/Purchase.html",
   "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
+  "/cart": "pages/cart.html",
+  "/checkout": "pages/checkout.html",
+  "/custom-sticker": "pages/custom-sticker.html",
+  "/faq": "pages/faq.html",
+  "/help": "pages/help.html",
+  "/": "pages/index.html",
+  "/privacy-policy": "pages/privacy-policy.html",
+  "/products/[curpath]/[orderId]": "pages/products/[curpath]/[orderId].html",
+  "/refund-policy": "pages/refund-policy.html",
+  "/sitemap.xml": "pages/sitemap.xml.js",
+  "/status": "pages/status.html",
+  "/success": "pages/success.html",
+  "/terms-of-service": "pages/terms-of-service.html",
+  "/upload-sticker/[orderId]": "pages/upload-sticker/[orderId].html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }
